@@ -1,0 +1,154 @@
+body,html{
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  font-family: opensans;
+}
+
+.header-section{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  background: black;
+}
+
+h1 {
+  font-weight: 900;
+  background: linear-gradient(to right, #C6FFDD, #FBD786, #f7797d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-section h1{
+  font-size: 3em;
+  color: white;
+}
+
+.wrapperInput{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hash-content {
+  flex-basis: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.hash-content h2 {
+  color: #565656;
+  font-size: 22px;
+}
+
+.hash-in {
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #ececec;
+}
+
+.hash-in textarea {
+  width: 464px;
+  height: 170px;
+  padding: 15px;
+  outline: none;
+  resize: none;
+  font-size: 14px;
+  border-color: #fcfcfc;
+  border-radius: 5px;
+  border: 1px solid #ececec;
+}
+
+.hash-out {
+  border-radius: 5px;
+  border: 1px solid #ececec;
+  margin-top: 30px;
+  flex: 1 1;
+  color: #565656;
+}
+
+.hash-out p {
+  padding-right: 5px;
+  padding-left: 5px;
+  inline-size: 500px;
+  padding-left: 50px;
+  overflow-wrap: break-word;
+}
+
+.btn-in {
+  margin: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hashbtn {
+  padding-left: 32px;
+}
+
+.clearbtn {
+  padding-right: 32px;
+}
+
+.btn {
+  padding: 10px 60px;
+  border-radius: 200px;
+  border: 1px solid #d3d3d3;
+  cursor: pointer;
+}
+
+.btn--hash {
+  background-color: #5856d6;
+  color: white;
+}
+
+.btn--clear {
+  background-color:white;
+}
+
+
+.sha-text {
+  flex-basis: 50%;
+  color: #565656;
+}
+
+.sha-text h3, h2 {
+  text-align: center;
+}
+
+.sha-title {
+  margin-left: 30px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.sha-defi {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+.sha-defi p {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+
+}
+
+.d-flex{
+  display: flex;
+  justify-content: center;
+}
+
+
+.btn:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
